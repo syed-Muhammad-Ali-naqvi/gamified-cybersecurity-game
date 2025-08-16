@@ -1,0 +1,513 @@
+[
+  {
+    "question": "You receive an email from your bank asking you to urgently verify your account by clicking a link. The email looks real, but the link's domain is slightly misspelled. What should you do?",
+    "options": [
+      "Click the link and verify to avoid account lock",
+      "Ignore the email and directly contact the bank",
+      "Forward the email to all your friends as a warning",
+      "Reply asking if the email is real"
+    ],
+    "answer": "Ignore the email and directly contact the bank",
+    "explanation": "This is a classic phishing attempt. Always verify through official channels, not the email link. Banks never ask for sensitive info via email."
+  },
+  {
+    "question": "Can your IP address reveal your exact physical location?",
+    "options": [
+      "Yes, it can always pinpoint your home",
+      "No, it only reveals your ISP and rough location",
+      "Only hackers can use IPs to find you",
+      "Only if you have dynamic IP"
+    ],
+    "answer": "No, it only reveals your ISP and rough location",
+    "explanation": "An IP address typically reveals your city or ISP’s server location, not your exact home address — unless combined with ISP records via legal process."
+  },
+  {
+    "question": "Your friend says MAC addresses cannot be changed. Is that correct?",
+    "options": [
+      "Yes, MAC addresses are burned into hardware and fixed forever",
+      "No, MAC addresses can be changed (spoofed) in software",
+      "Only hackers can change them",
+      "It depends on the brand of your network card"
+    ],
+    "answer": "No, MAC addresses can be changed (spoofed) in software",
+    "explanation": "While MACs are assigned by the manufacturer, they can be changed temporarily via software, a technique called MAC spoofing."
+  },
+  {
+    "question": "You are browsing public Wi-Fi in a café. Which is the safest action?",
+    "options": [
+      "Log in to your bank account quickly",
+      "Use a VPN before doing anything sensitive",
+      "Turn off your firewall for faster browsing",
+      "Connect without worrying, it’s just Wi-Fi"
+    ],
+    "answer": "Use a VPN before doing anything sensitive",
+    "explanation": "Public Wi-Fi is unsafe because attackers can intercept unencrypted traffic. A VPN encrypts your data and adds a layer of protection."
+  },
+  {
+    "question": "What does 'spoofing' mean in cybersecurity?",
+    "options": [
+      "Copying someone’s profile picture online",
+      "Pretending to be another device, IP, or user to gain trust or access",
+      "Changing your password regularly",
+      "Scanning a network for vulnerabilities"
+    ],
+    "answer": "Pretending to be another device, IP, or user to gain trust or access",
+    "explanation": "Spoofing is about deception, forging identity in data communication to trick the target or bypass restrictions."
+  },
+  {
+    "question": "A website you visit has 'HTTP' in the URL instead of 'HTTPS'. What does this mean?",
+    "options": [
+      "The site is secure and encrypted",
+      "The site’s data transfer is unencrypted and can be intercepted",
+      "The site is faster",
+      "It’s a government site"
+    ],
+    "answer": "The site’s data transfer is unencrypted and can be intercepted",
+    "explanation": "HTTP sends data in plain text, which can be intercepted by attackers. HTTPS encrypts it using SSL/TLS."
+  },
+  {
+    "question": "If you delete a file from your computer’s Recycle Bin, is it gone forever?",
+    "options": [
+      "Yes, it is completely gone",
+      "No, it can still be recovered with special tools",
+      "Only hackers can recover it",
+      "It depends on your operating system"
+    ],
+    "answer": "No, it can still be recovered with special tools",
+    "explanation": "Deleting removes file references, but data remains on disk until overwritten. Tools like forensic software can recover it."
+  },
+  {
+    "question": "Your boss asks you to install free software from an unverified USB stick. What should you do?",
+    "options": [
+      "Install it quickly to finish the task",
+      "Scan the USB for malware before use",
+      "Plug it in and check what’s inside",
+      "Refuse because all USBs are dangerous"
+    ],
+    "answer": "Scan the USB for malware before use",
+    "explanation": "USBs can carry malware (USB drop attacks). Always scan with security software before opening or running files."
+  },
+  {
+    "question": "What is the main danger of posting your birth date online?",
+    "options": [
+      "Friends will send too many birthday wishes",
+      "It can be used in identity theft and security question guessing",
+      "It slows down your internet speed",
+      "It makes you more visible to advertisers"
+    ],
+    "answer": "It can be used in identity theft and security question guessing",
+    "explanation": "Many accounts use birth dates as verification. Attackers can exploit this to bypass account recovery questions."
+  },
+  {
+    "question": "Is using the same password for multiple accounts risky?",
+    "options": [
+      "Yes, if one site gets hacked, all accounts are at risk",
+      "No, it’s fine as long as it’s strong",
+      "Only if the accounts are related",
+      "It doesn’t matter anymore with 2FA"
+    ],
+    "answer": "Yes, if one site gets hacked, all accounts are at risk",
+    "explanation": "Password reuse allows a single breach to compromise multiple accounts through credential stuffing attacks."
+  },
+  {
+    "question": "You get a pop-up saying your PC is infected and you must download an 'urgent fix'. What should you do?",
+    "options": [
+      "Download the fix immediately",
+      "Ignore and close the pop-up",
+      "Restart your computer",
+      "Call the phone number in the pop-up"
+    ],
+    "answer": "Ignore and close the pop-up",
+    "explanation": "This is scareware; fake security alerts designed to trick you into downloading malware or giving personal information."
+  },
+  {
+    "question": "In cybersecurity, what is a honeypot?",
+    "options": [
+      "A fake vulnerable system to lure attackers",
+      "A secure backup system",
+      "A hidden password vault",
+      "A phishing email"
+    ],
+    "answer": "A fake vulnerable system to lure attackers",
+    "explanation": "Honeypots are traps for attackers, used to study their methods and protect real systems."
+  },
+  {
+    "question": "What’s the main difference between symmetric and asymmetric encryption?",
+    "options": [
+      "Symmetric uses one key, asymmetric uses two keys",
+      "Symmetric is slower, asymmetric is faster",
+      "Asymmetric works only online",
+      "They are the same thing"
+    ],
+    "answer": "Symmetric uses one key, asymmetric uses two keys",
+    "explanation": "Symmetric encryption uses the same key for encryption and decryption. Asymmetric uses a public-private key pair."
+  },
+  {
+    "question": "If an attacker is performing a MITM (Man-in-the-Middle) attack, what are they doing?",
+    "options": [
+      "Intercepting communication between two parties",
+      "Installing ransomware",
+      "Scanning ports",
+      "Deleting system logs"
+    ],
+    "answer": "Intercepting communication between two parties",
+    "explanation": "In MITM, the attacker secretly relays or alters communication between two systems without them knowing."
+  },
+  {
+    "question": "You receive a file named 'invoice.pdf.exe'. What’s suspicious about it?",
+    "options": [
+      "It’s a double extension that hides the real executable file",
+      "It’s a PDF file",
+      "It’s an old invoice",
+      "Nothing is wrong"
+    ],
+    "answer": "It’s a double extension that hides the real executable file",
+    "explanation": "Attackers use double extensions to trick users — Windows may hide the .exe part, making it look like a harmless PDF."
+  },
+  {
+    "question": "Your friend says incognito mode keeps you completely anonymous online. True or false?",
+    "options": [
+      "True, it hides everything",
+      "False, it only hides history from your device, not from ISPs or websites",
+      "True, but only on Chrome",
+      "False, it only works on mobile"
+    ],
+    "answer": "False, it only hides history from your device, not from ISPs or websites",
+    "explanation": "Incognito mode prevents local history storage but does not hide your IP, activity from ISPs, or tracking by websites."
+  },
+  {
+    "question": "What’s the safest way to store passwords?",
+    "options": [
+      "Write them in a notebook",
+      "Use a password manager",
+      "Save them in plain text on your computer",
+      "Memorize all of them"
+    ],
+    "answer": "Use a password manager",
+    "explanation": "Password managers store passwords securely in encrypted vaults, generating strong unique passwords for each site."
+  },
+  {
+    "question": "Which of these is an example of social engineering?",
+    "options": [
+      "Brute-forcing a password",
+      "Tricking an employee into giving a password over the phone",
+      "SQL injection",
+      "Using a keylogger"
+    ],
+    "answer": "Tricking an employee into giving a password over the phone",
+    "explanation": "Social engineering manipulates people, not systems, to gain access — often the weakest security link."
+  },
+  {
+    "question": "If you find an open Wi-Fi network named 'Free_Airport_WiFi', what’s the risk?",
+    "options": [
+      "It’s too slow",
+      "It could be an evil twin attack set up to steal data",
+      "The airport might charge you later",
+      "It’s only for staff"
+    ],
+    "answer": "It could be an evil twin attack set up to steal data",
+    "explanation": "Attackers create fake Wi-Fi hotspots to intercept traffic and capture credentials."
+  },
+  {
+    "question": "What is the safest practice when creating security questions for accounts?",
+    "options": [
+      "Use real, honest answers",
+      "Use fake but memorable answers",
+      "Use your birth date and place",
+      "Skip security questions"
+    ],
+    "answer": "Use fake but memorable answers",
+    "explanation": "Real answers are often public or guessable. Using fake but memorable info makes it harder for attackers to bypass authentication."
+  },
+
+  {
+    "question": "Is it safe to post your vacation plans and current location on social media?",
+    "options": ["Yes, friends should know", "No, it can alert criminals", "Only if your profile is private", "Yes, if you remove location tags"],
+    "answer": "No, it can alert criminals",
+    "explanation": "Posting real-time location data can alert criminals to when your home is unoccupied, increasing the risk of burglary."
+  },
+  {
+    "question": "You see a USB drive lying in your office parking lot. What should you do?",
+    "options": ["Plug it in to find the owner", "Hand it to IT", "Take it home for personal use", "Ignore it"],
+    "answer": "Hand it to IT",
+    "explanation": "Plugging in an unknown USB can introduce malware into the network. Always hand it to IT for safe handling."
+  },
+  {
+    "question": "Can a MAC address be changed?",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "MAC addresses can be spoofed using software, which can be used for legitimate purposes or malicious activities."
+  },
+  {
+    "question": "What does 'spoofing' mean in cybersecurity?",
+    "options": [
+      "Imitating something to trick a system or person",
+      "Deleting data without permission",
+      "Scanning a network",
+      "Encrypting a file"
+    ],
+    "answer": "Imitating something to trick a system or person",
+    "explanation": "Spoofing involves pretending to be a trusted entity — like an IP address, email, or website to deceive people or systems."
+  },
+  {
+    "question": "You get a call from someone claiming to be from IT, asking for your password to fix an issue. What should you do?",
+    "options": ["Give the password", "Hang up and call IT directly", "Email them your password", "Ignore them"],
+    "answer": "Hang up and call IT directly",
+    "explanation": "Legitimate IT staff will never ask for your password directly. Always verify by calling them through official channels."
+  },
+  {
+    "question": "If a website’s URL starts with HTTP instead of HTTPS, what does it mean?",
+    "options": [
+      "It is secure",
+      "It is not encrypted",
+      "It is fake",
+      "It is always dangerous"
+    ],
+    "answer": "It is not encrypted",
+    "explanation": "HTTP does not encrypt data, meaning your information could be intercepted. HTTPS encrypts your communication with the site."
+  },
+  {
+    "question": "Is it OK to reveal your IP address publicly?",
+    "options": ["Yes", "No"],
+    "answer": "No",
+    "explanation": "Your IP can reveal location information and can be targeted for attacks such as DDoS."
+  },
+  {
+    "question": "A friend sends you a funny video link, but the preview looks suspicious. What should you do?",
+    "options": ["Click it quickly before it’s removed", "Ask your friend if they sent it", "Ignore it", "Scan it with antivirus"],
+    "answer": "Ask your friend if they sent it",
+    "explanation": "Hackers often hijack accounts to send malicious links. Always verify with the sender before opening."
+  },
+  {
+    "question": "Can your webcam be hacked without turning on the indicator light?",
+    "options": ["Yes", "No"],
+    "answer": "Yes",
+    "explanation": "Some malware can disable or bypass the indicator light, allowing surveillance without your knowledge."
+  },
+  {
+    "question": "You receive a security update notification on your computer. What should you do?",
+    "options": ["Ignore it", "Install it immediately", "Check if it's from official source", "Uninstall security updates"],
+    "answer": "Check if it's from official source",
+    "explanation": "Ensure updates come from official sources. Security updates patch vulnerabilities that hackers can exploit."
+  },
+  {
+    "question": "What should you do if you suspect your email account has been hacked?",
+    "options": [
+      "Change your password immediately",
+      "Ignore it and hope it resolves",
+      "Share your login details with a friend to check",
+      "Delete all your emails"
+    ],
+    "answer": "Change your password immediately",
+    "explanation": "Changing your password quickly can prevent further unauthorized access. Notify your email provider and monitor for suspicious activity."
+  },
+  {
+    "question": "Which of these is a strong password?",
+    "options": [
+      "password123",
+      "P@ssw0rd2023!",
+      "username123",
+      "abc123"
+    ],
+    "answer": "P@ssw0rd2023!",
+    "explanation": "A strong password includes a mix of uppercase, lowercase, numbers, and special characters, and avoids common words or personal info."
+  },
+  {
+    "question": "What is the purpose of a firewall?",
+    "options": [
+      "To encrypt your data",
+      "To monitor and control incoming and outgoing network traffic",
+      "To speed up your internet",
+      "To store your files"
+    ],
+    "answer": "To monitor and control incoming and outgoing network traffic",
+    "explanation": "A firewall acts as a barrier between your device and potential threats, filtering traffic based on security rules."
+  },
+  {
+    "question": "What does a VPN protect against?",
+    "options": [
+      "Physical theft of your device",
+      "Unencrypted data over public Wi-Fi",
+      "Virus infections",
+      "Hardware failures"
+    ],
+    "answer": "Unencrypted data over public Wi-Fi",
+    "explanation": "A VPN encrypts your internet connection, protecting your data from being intercepted on unsecured networks like public Wi-Fi."
+  },
+  {
+    "question": "Which action can help prevent ransomware attacks?",
+    "options": [
+      "Opening email attachments from unknown senders",
+      "Regularly backing up your data",
+      "Disabling your antivirus",
+      "Using the same password everywhere"
+    ],
+    "answer": "Regularly backing up your data",
+    "explanation": "Regular backups allow you to restore data without paying a ransom if your system is compromised by ransomware."
+  },
+  {
+    "question": "What is two-factor authentication (2FA)?",
+    "options": [
+      "Using two passwords",
+      "A security process using two different authentication methods",
+      "Double-clicking to log in",
+      "Two login attempts"
+    ],
+    "answer": "A security process using two different authentication methods",
+    "explanation": "2FA adds a second layer of security, like a code sent to your phone, beyond just a password."
+  },
+  {
+    "question": "What should you do if you receive a suspicious text message asking for personal information?",
+    "options": [
+      "Reply with your details to verify",
+      "Delete it and block the number",
+      "Forward it to all contacts",
+      "Call the number to confirm"
+    ],
+    "answer": "Delete it and block the number",
+    "explanation": "Suspicious texts are often phishing attempts. Avoid interacting and block the sender to prevent further contact."
+  },
+  {
+    "question": "What is the main risk of downloading software from unverified websites?",
+    "options": [
+      "It might be slow",
+      "It could contain malware",
+      "It won’t update automatically",
+      "It’s too expensive"
+    ],
+    "answer": "It could contain malware",
+    "explanation": "Unverified sites may distribute malware disguised as legitimate software, compromising your device."
+  },
+  {
+    "question": "Which of these is a sign of a phishing website?",
+    "options": [
+      "A padlock icon in the browser",
+      "A URL with misspellings or extra characters",
+      "A professional design",
+      "A trusted company name"
+    ],
+    "answer": "A URL with misspellings or extra characters",
+    "explanation": "Phishing sites often mimic legitimate URLs with slight alterations to deceive users."
+  },
+  {
+    "question": "What does encrypting your hard drive do?",
+    "options": [
+      "Speeds up your computer",
+      "Protects data if the device is lost or stolen",
+      "Deletes all files",
+      "Improves internet speed"
+    ],
+    "answer": "Protects data if the device is lost or stolen",
+    "explanation": "Encryption scrambles your data, making it unreadable without the correct key, even if someone accesses your device."
+  },
+  {
+    "question": "What is the purpose of a CAPTCHA?",
+    "options": [
+      "To encrypt your data",
+      "To verify you’re not a bot",
+      "To speed up website loading",
+      "To track your location"
+    ],
+    "answer": "To verify you’re not a bot",
+    "explanation": "CAPTCHA tests (e.g., selecting images) ensure a human is interacting with a website, preventing automated attacks."
+  },
+  {
+    "question": "Which of these is a common type of malware?",
+    "options": [
+      "Spreadsheet",
+      "Trojan horse",
+      "Word processor",
+      "Browser"
+    ],
+    "answer": "Trojan horse",
+    "explanation": "A Trojan horse disguises itself as legitimate software to trick users into installing malicious code."
+  },
+  {
+    "question": "What should you do if your credit card details are stolen?",
+    "options": [
+      "Wait to see if charges appear",
+      "Contact your bank immediately",
+      "Change your email password",
+      "Ignore it"
+    ],
+    "answer": "Contact your bank immediately",
+    "explanation": "Quickly notifying your bank can limit your liability and prevent further unauthorized transactions."
+  },
+  {
+    "question": "What is the risk of using public charging stations?",
+    "options": [
+      "They might overcharge your device",
+      "They can install malware via juice jacking",
+      "They are too slow",
+      "They only work with certain phones"
+    ],
+    "answer": "They can install malware via juice jacking",
+    "explanation": "Public chargers can be compromised to deliver malware or steal data, known as juice jacking."
+  },
+  {
+    "question": "Which practice helps secure your Wi-Fi network?",
+    "options": [
+      "Using the default admin password",
+      "Enabling WPA3 encryption",
+      "Leaving the network name visible",
+      "Disabling the firewall"
+    ],
+    "answer": "Enabling WPA3 encryption",
+    "explanation": "WPA3 provides stronger encryption and security for your Wi-Fi, protecting against unauthorized access."
+  },
+  {
+    "question": "What should you do if you accidentally click a malicious link?",
+    "options": [
+      "Continue browsing",
+      "Disconnect from the internet and scan for malware",
+      "Restart your computer",
+      "Share the link with friends"
+    ],
+    "answer": "Disconnect from the internet and scan for malware",
+    "explanation": "Disconnecting prevents further damage, and a malware scan can detect and remove any threats."
+  },
+  {
+    "question": "What is the purpose of a security patch?",
+    "options": [
+      "To add new features",
+      "To fix vulnerabilities in software",
+      "To slow down your device",
+      "To delete old files"
+    ],
+    "answer": "To fix vulnerabilities in software",
+    "explanation": "Security patches address weaknesses that hackers could exploit, keeping your system safe."
+  },
+  {
+    "question": "Which of these is a safe way to dispose of an old computer?",
+    "options": [
+      "Throw it in the trash",
+      "Wipe the hard drive and recycle it",
+      "Sell it without formatting",
+      "Give it away with all data intact"
+    ],
+    "answer": "Wipe the hard drive and recycle it",
+    "explanation": "Wiping the hard drive removes personal data, and recycling ensures safe disposal of electronic waste."
+  },
+  {
+    "question": "What does a Denial-of-Service (DoS) attack do?",
+    "options": [
+      "Steals your data",
+      "Overloads a server to make it unavailable",
+      "Encrypts your files",
+      "Deletes your emails"
+    ],
+    "answer": "Overloads a server to make it unavailable",
+    "explanation": "A DoS attack floods a server with traffic, preventing legitimate users from accessing it."
+  },
+  {
+    "question": "Which action can help protect against identity theft?",
+    "options": [
+      "Sharing your Social Security number online",
+      "Shredding sensitive documents",
+      "Using public Wi-Fi for banking",
+      "Reusing old passwords"
+    ],
+    "answer": "Shredding sensitive documents",
+    "explanation": "Shredding prevents thieves from accessing personal info from discarded papers, reducing identity theft risk."
+  }
+]
