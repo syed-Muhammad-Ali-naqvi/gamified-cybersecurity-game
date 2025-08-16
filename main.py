@@ -11,18 +11,15 @@ from PyQt6.QtWidgets import (
 )
 import json
 
-# Load questions from bank.json
 def load_questions(path="bank.json") -> List[Dict[str, Any]]:
     try:
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
-        # Validate question format
         filtered = [q for q in data if all(k in q for k in ("question", "options", "answer", "explanation"))]
         random.shuffle(filtered)
         return filtered
     except Exception as e:
         print(f"Error loading questions: {e}")
-        # fallback question
         return [{
             "question": "Is HTTPS more secure than HTTP?",
             "options": ["Yes", "No"],
@@ -97,7 +94,6 @@ class HomeScreen(QWidget):
         v.addWidget(h1("Gamified CyberSecurity Awareness Quiz Game"))
         v.addWidget(body("Level up your cyber knowledge and stay secure!"))
 
-        # Name input
         name_layout = QHBoxLayout()
         name_layout.addWidget(body("Enter your name:"))
         self.name_input = QLineEdit()
@@ -404,4 +400,5 @@ def main():
     sys.exit(app.exec())
 
 if __name__ == "__main__":
+
     main()
