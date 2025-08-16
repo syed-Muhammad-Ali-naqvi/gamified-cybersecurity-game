@@ -1,6 +1,5 @@
 import sys
 import random
-from dataclasses import dataclass
 from typing import List, Dict, Any
 
 from PyQt6.QtCore import Qt, QPropertyAnimation, QEasingCurve
@@ -402,3 +401,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
