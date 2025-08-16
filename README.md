@@ -13,13 +13,18 @@ This game presents users with a series of scenario-based questions drawn from a 
 - **End-of-Game Report**: Detailed stats including total questions, correct/wrong answers, and skill level.
 - **Smooth UI**: Modern design with fade animations and responsive layouts.
 
-## Prerequisites
-- Python 3.6 or higher
-- PyQt6 (install via `pip install PyQt6`)
-- A `bank.json` file with question data (included or customizable)
+## Requirements
+To run this project, you need the following:
 
-## Installation
-1. Clone the repository:
+- **Python**: Version 3.6 or higher.
+- **Dependencies**:
+  - `PyQt6`: For the graphical user interface (install via `pip install PyQt6`).
+- **Files**:
+  - `bank.json`: A JSON file containing the question bank (a sample with 50 questions is included).
+
+### Installation
+1. **Clone the Repository**:
+   Use the following `.git` URL to clone the repository to your local machine:
    ```bash
    git clone https://github.com/syed-Muhammad-Ali-naqvi/gamified-cybersecurity-game.git
    cd gamified-cybersecurity-game
